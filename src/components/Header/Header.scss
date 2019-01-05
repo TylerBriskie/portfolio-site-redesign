@@ -1,0 +1,12 @@
+.site-header {
+  color: aqua;
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  button {
+    border: solid 1px green;
+    padding: 1em;
+    border-radius: 20px;
+  }
+}
