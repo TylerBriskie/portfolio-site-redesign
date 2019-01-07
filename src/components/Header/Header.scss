@@ -1,12 +1,51 @@
 .site-header {
+  background-image: url("../../assets/HeaderImageWhite.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 15vh;
+  width: 100vw;
   color: aqua;
-  background-color: #000;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  button {
-    border: solid 1px green;
-    padding: 1em;
-    border-radius: 20px;
+  .nav-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    right: 0;
+    top: 5%;
+    width: 40%;
+    a.nav-button {
+      min-width: 125px;
+      margin: 0 10px;
+      color: white;
+      height: 20%;
+      background-color: black;
+      text-decoration: none;
+      border: solid 3px #ccc;
+      padding: 1em;
+      border-radius: 20px;
+    }
+    a.nav-button:nth-child(1):hover{
+      border: solid 3px #00d8eb;
+      color: #00d8eb;
+    }
+    a.nav-button:nth-child(2):hover{
+       border: solid 3px #FF009C;
+      color: #FF009C;
+     }
+    a.nav-button:nth-child(3):hover{
+      border: solid 3px #f6ff00;
+      color: #f6ff00;
+    }
+    a.nav-button:nth-child(4):hover{
+      border: solid 3px #D70000;
+      color: #D70000;
+    }
+  }
+
+  #header-image-logo{
+    height: 234px;
   }
 }
