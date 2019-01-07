@@ -8,6 +8,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  transition: background-image .8s;
   .nav-button-container {
     display: flex;
     align-items: center;
@@ -17,29 +18,38 @@
     top: 5%;
     width: 40%;
     a.nav-button {
-      min-width: 125px;
+      display: flex;
+      width: 200px;
+      height: 50px;
       margin: 0 10px;
-      color: white;
-      height: 20%;
+      color: #777;
       background-color: black;
       text-decoration: none;
-      border: solid 3px #ccc;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Stalinist One', sans-serif;
+      border: solid 3px #777;
       padding: 1em;
       border-radius: 20px;
+      transition: color .4s, border .5s, transform .8s;
     }
-    a.nav-button:nth-child(1):hover{
+    a.nav-button:hover {
+      transform: scale(1.1, 1.1);
+    }
+    a.nav-button:nth-child(1):hover, a.nav-button.active:nth-child(1){
       border: solid 3px #00d8eb;
       color: #00d8eb;
     }
-    a.nav-button:nth-child(2):hover{
-       border: solid 3px #FF009C;
-      color: #FF009C;
-     }
-    a.nav-button:nth-child(3):hover{
+    a.nav-button:nth-child(2):hover, a.nav-button.active:nth-child(2){
+        border: solid 3px #FF009C;
+        color: #FF009C;
+    }
+    a.nav-button:nth-child(3):hover, a.nav-button.active:nth-child(3){
       border: solid 3px #f6ff00;
       color: #f6ff00;
     }
-    a.nav-button:nth-child(4):hover{
+    a.nav-button:nth-child(4):hover, a.nav-button.active:nth-child(4){
       border: solid 3px #D70000;
       color: #D70000;
     }
@@ -48,4 +58,20 @@
   #header-image-logo{
     height: 234px;
   }
+}
+
+.nav-projects {
+  background-image: url("../../assets/HeaderImageBlue.png");
+}
+
+.nav-music {
+  background-image: url("../../assets/HeaderImageMagenta.png");
+}
+
+.nav-resume {
+  background-image: url("../../assets/HeaderImageYellow.png");
+}
+
+.nav-arcade {
+  background-image: url("../../assets/HeaderImageRed.png");
 }
