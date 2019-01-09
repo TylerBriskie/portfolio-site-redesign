@@ -20,7 +20,7 @@ class Music extends Component {
                           showIndicators={false}
                           showStatus={false}
                           infiniteLoop={true}
-                          width="50vw"
+                          width="40vw"
                           emulateTouch={true}
                           showThumbs={false}
                           autoPlay={true}
@@ -37,6 +37,8 @@ class Music extends Component {
                         <img src={photo_03} />
                     </div>
                 </Carousel>
+                <iframe width="100%" height="450" scrolling="no" frameBorder="no" allow="autoplay"
+                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/681715908&color=%2300aabb&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
             </div>
         );
     }
