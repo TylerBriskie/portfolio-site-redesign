@@ -12,7 +12,14 @@ class Projects extends Component {
 
     render(){
         return (
-            <h1>Projects, coming soon</h1>
+            <article id="projects-page-container">
+                <h1>Web Developer Projects</h1>
+                <section className="groupie">
+                    <h2>Groupie.</h2>
+                    <h3>Start a band.  Take over the world.</h3>
+                    <p>Groupie, my capstone project at Galvanize, is an app developed in React Native</p>
+                </section>
+            </article>
         );
     }
 
