@@ -15,28 +15,42 @@ class Music extends Component {
     render(){
         return (
             <div id="music-page-container">
-                <Carousel dynamicHeight={true}
-                          showArrows={false}
-                          showIndicators={false}
-                          showStatus={false}
-                          infiniteLoop={true}
-                          width="50vw"
-                          emulateTouch={true}
-                          showThumbs={false}
-                          autoPlay={true}
-                          interval={5000}
-                          transitionTime={500}
-                          className="carousel-container">
-                    <div className="carousel-image">
-                        <img src={photo_01} />
-                    </div>
-                    <div className="carousel-image">
-                        <img src={photo_02} />
-                    </div>
-                    <div className="carousel-image">
-                        <img src={photo_03} />
-                    </div>
-                </Carousel>
+                <div className="music-section gin-doctors">
+                    <Carousel dynamicHeight={true}
+                              showArrows={false}
+                              showIndicators={false}
+                              showStatus={false}
+                              infiniteLoop={true}
+                              width="50vw"
+                              emulateTouch={true}
+                              showThumbs={false}
+                              autoPlay={true}
+                              interval={5000}
+                              transitionTime={500}
+                              className="carousel-container">
+                        <div className="carousel-image">
+                            <img src={photo_01} />
+                        </div>
+                        <div className="carousel-image">
+                            <img src={photo_02} />
+                        </div>
+                        <div className="carousel-image">
+                            <img src={photo_03} />
+                        </div>
+                    </Carousel>
+                </div>
+                <div className="music-section the-golden-robe">
+                    The Golden Robe
+                </div>
+                <div className="music-section personal">
+                    Compositions
+                </div>
+                <div className="music-section pxlman">
+                    Pxlman
+                </div>
+                <div className="music-section young-cities">
+                    Young Cities
+                </div>
             </div>
         );
     }
