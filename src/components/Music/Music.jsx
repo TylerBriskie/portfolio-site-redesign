@@ -1,6 +1,8 @@
 import React, { Component} from 'react';
 import { Carousel } from 'react-responsive-carousel';
+import { Accordion, AccordionItem, AccordionItemTitle, AccordionItemBody } from 'react-accessible-accordion';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import 'react-accessible-accordion/dist/fancy-example.css';
 import './Music.scss';
 import photo_01 from "../../assets/music_01.jpg";
 import photo_02 from "../../assets/music_02.jpg";
@@ -15,30 +17,39 @@ class Music extends Component {
     render(){
         return (
             <div id="music-page-container">
-                <div className="music-section gin-doctors">
+              <Accordion>
+                <AccordionItem
+                      className="music-section gin-doctors"
+                      expanded={true}>
+                  <AccordionItemTitle>
+                    Gin Doctors
+                  </AccordionItemTitle>
+                  <AccordionItemBody>
                     <Carousel dynamicHeight={true}
-                              showArrows={false}
-                              showIndicators={false}
-                              showStatus={false}
-                              infiniteLoop={true}
-                              width="50vw"
-                              emulateTouch={true}
-                              showThumbs={false}
-                              autoPlay={true}
-                              interval={5000}
-                              transitionTime={500}
-                              className="carousel-container">
-                        <div className="carousel-image">
-                            <img src={photo_01} />
-                        </div>
-                        <div className="carousel-image">
-                            <img src={photo_02} />
-                        </div>
-                        <div className="carousel-image">
-                            <img src={photo_03} />
-                        </div>
+                        showArrows={false}
+                        showIndicators={false}
+                        showStatus={false}
+                        infiniteLoop={true}
+                        width="50vw"
+                        emulateTouch={true}
+                        showThumbs={false}
+                        autoPlay={true}
+                        interval={5000}
+                        transitionTime={500}
+                        className="carousel-container">
+                    <div className="carousel-image">
+                       <img src={photo_01} />
+                    </div>
+                    <div className="carousel-image">
+                      <img src={photo_02} />
+                    </div>
+                    <div className="carousel-image">
+                      <img src={photo_03} />
+                    </div>
                     </Carousel>
-                </div>
+                  </AccordionItemBody>
+
+                </AccordionItem>
                 <div className="music-section the-golden-robe">
                   <h3>The Golden Robe</h3>
                   <p>In 2018 I began writing some electronic music that would eventually become a project known as The Golden Robe, a retrowave / outrun style throwback to the sights and sounds of my childhood</p>
@@ -53,6 +64,7 @@ class Music extends Component {
                 <div className="music-section young-cities">
                   <h3>Young Cities</h3>
                 </div>
+              </Accordion>
             </div>
         );
     }
