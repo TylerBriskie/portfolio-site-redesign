@@ -2,7 +2,6 @@ import React, { Component} from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import { Accordion, AccordionItem, AccordionItemTitle, AccordionItemBody } from 'react-accessible-accordion';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import 'react-accessible-accordion/dist/fancy-example.css';
 import './Music.scss';
 import photo_01 from "../../assets/music_01.jpg";
 import photo_02 from "../../assets/music_02.jpg";
@@ -22,7 +21,7 @@ class Music extends Component {
                       className="music-section gin-doctors"
                       expanded={true}>
                   <AccordionItemTitle>
-                    Gin Doctors
+                    Gin Doczz
                   </AccordionItemTitle>
                   <AccordionItemBody>
                     <Carousel dynamicHeight={true}
