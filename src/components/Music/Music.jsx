@@ -21,7 +21,7 @@ class Music extends Component {
                       className="music-section gin-doctors"
                       expanded={true}>
                   <AccordionItemTitle>
-                    Gin Doczz
+                    Gin Doctors
                   </AccordionItemTitle>
                   <AccordionItemBody>
                     <Carousel dynamicHeight={true}
