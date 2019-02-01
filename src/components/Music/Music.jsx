@@ -6,7 +6,6 @@ import './Music.scss';
 import photo_01 from "../../assets/music_01.jpg";
 import photo_02 from "../../assets/music_02.jpg";
 import photo_03 from "../../assets/music_03.jpg";
-import photo_04 from "../../assets/music_04.jpg";
 
 
 class Music extends Component {

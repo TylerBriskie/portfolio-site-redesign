@@ -4,7 +4,36 @@ import './Resume.scss';
 class Resume extends Component {
     render(){
         return (
-            <h1>Online Resume</h1>
+            <div className="resume-page-container">
+                <h2>Hey </h2>
+                <h2>Hey </h2>
+                <h2>Hey </h2>
+                <h2>Hey </h2>
+                <h2>Hey </h2>
+                <h2>Hey </h2>
+                <h2>Hey </h2>
+                <h2>Hey </h2>
+                <h2>Hey </h2>
+                <h2>Hey </h2>
+                <h2>Hey </h2>
+                <h2>Hey </h2>
+                <h2>Hey </h2>
+                <h2>Hey </h2>
+                <h2>Hey </h2>
+                <h2>Hey </h2>
+                <h2>Hey </h2>
+                <h2>Hey </h2>
+                <h2>Hey </h2>
+                <h2>Hey </h2>
+                <h2>Hey </h2>
+                <h2>Hey </h2>
+                <h2>Hey </h2>
+                <h2>Hey </h2>
+                <h2>Hey </h2>
+                <h2>Hey </h2>
+                <h2>Hey </h2>
+
+            </div>
         );
     }
 
