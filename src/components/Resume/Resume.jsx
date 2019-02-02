@@ -44,6 +44,23 @@ class Resume extends Component {
                       <p>Here's stuff about bands i was in</p>
 
                   </section>
+                  <section className="experience">
+                      <header>
+                          <h1>Fat Jacks <span>2012 - 2013</span></h1>
+                      </header>
+                      <p>Here's stuff about vertafore</p>
+                      <p>Here's stuff about vertafore</p>
+
+                      <p>Here's stuff about vertafore</p>
+                      <p>Here's stuff about vertafore</p>
+                      <p>Here's stuff about vertafore</p>
+                      <p>Here's stuff about vertafore</p>
+                      <p>Here's stuff about vertafore</p>
+                      <p>Here's stuff about vertafore</p>
+                      <p>Here's stuff about vertafore</p>
+                      <p>Here's stuff about vertafore</p>
+
+                  </section>
               </article>
               <aside id="skills-and-proficiencies">
                   <h1>Skills and Proficiencies</h1>

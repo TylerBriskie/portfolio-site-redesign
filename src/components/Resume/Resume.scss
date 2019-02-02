@@ -8,25 +8,22 @@
   }
   #resume-work-experience {
     width: 75%;
-  }
-  .experience {
-    padding: 10%;
-    header {
-      display: flex;
-      align-items: center;
-      padding-left: 5%;
-      background-color: #666;
-      height: 75px;
-      h1 {
-        font-size: 200%;
-        color: white;
-        span {
+    .experience {
+      header {
+        padding: 0 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #666;
+        height: 75px;
+        h1 {
+          font-size: 200%;
           color: white;
-          font-size: 50%;
+          span {
+            color: white;
+            font-size: 50%;
+          }
         }
-      }
-      h2 {
-        font-size: 100%;
       }
     }
   }

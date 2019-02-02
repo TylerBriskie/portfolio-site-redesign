@@ -1,14 +1,10 @@
 import React from 'react';
 
 function SkillMeter({ color, percent}) {
-  const onLoad = () => {
-    console.log(`loaded ${color} skill meter at ${percent}%`)
-  };
+  //todo: make this animate?
 
   return (
-    <div className="skill-meter">
-      <p style={{color: `${color}`}}>{percent}</p>
-    </div>
+    <div className={`skill-meter-${color}`}>{percent}</div>
   );
 
 };
