@@ -1,3 +1,31 @@
-.site-header {
-
+.resume-page-container {
+  margin-top: 15vh;
+  display: flex;
+  flex-direction: row;
+  #skills-and-proficiencies {
+    position: fixed;
+    right: 0;
+    width: 35%;
+  }
+  #resume-work-experience {
+    width: 65%;
+    .experience {
+      header {
+        padding: 0 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #666;
+        height: 75px;
+        h1 {
+          font-size: 200%;
+          color: white;
+          span {
+            color: white;
+            font-size: 50%;
+          }
+        }
+      }
+    }
+  }
 }
