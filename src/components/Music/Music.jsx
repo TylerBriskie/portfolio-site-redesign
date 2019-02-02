@@ -51,7 +51,7 @@ class Music extends Component {
                 <AccordionItem className="music-section the-golden-robe">
                   <AccordionItemTitle>The Golden Robe</AccordionItemTitle>
                   <AccordionItemBody>
-                    <p>In 2018 I began writing some electronic music that would eventually become a project known as The Golden Robe, a retrowave / outrun style throwback to the sights and sounds of my childhood</p>
+                    <p>In 2014 I began writing some electronic music that would eventually become a project known as The Golden Robe, a retrowave / outrun style throwback to the sights and sounds of my childhood</p>
                     <iframe
                       width="100%"
                       height="300"
@@ -64,13 +64,13 @@ class Music extends Component {
                 </AccordionItem>
                 <AccordionItem className="music-section personal">
                   <AccordionItemTitle>Compositions</AccordionItemTitle>
+                    <AccordionItemBody>
+                        <p>The first type of music I was remember ever interested in writing was scoring and composing for other media.  Below are some compositions I've written for Film, TV, and Video Games</p>
+                        <iframe width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay"
+                                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/568774143&color=%2300aabb&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+                    </AccordionItemBody>
                 </AccordionItem>
-                <AccordionItem className="music-section pxlman">
-                  <AccordionItemTitle>Pxlman</AccordionItemTitle>
-                </AccordionItem>
-                <AccordionItem className="music-section young-cities">
-                  <h3>Young Cities</h3>
-                </AccordionItem>
+
               </Accordion>
             </div>
         );
