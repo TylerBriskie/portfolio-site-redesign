@@ -66,10 +66,24 @@ class Music extends Component {
                   <AccordionItemTitle>Compositions</AccordionItemTitle>
                 </AccordionItem>
                 <AccordionItem className="music-section pxlman">
-                  <AccordionItemTitle>Pxlman</AccordionItemTitle>
+                  <AccordionItemTitle>PXLMAN</AccordionItemTitle>
+                  <AccordionItemBody>
+
+                    I spent a year or so as the live drummer for PXLMAN, the brainchild of my good friend Randy Washington.  Featuring a sound somewhere between electro-soul and electronic funk, and an incredible live show featuring lights, costumes, and improvisational elements.
+                    A rotating cast of musicians included a DJ, several percussionists, horns, guitar and bass ensured each live performance was truly unique.
+                  </AccordionItemBody>
                 </AccordionItem>
                 <AccordionItem className="music-section young-cities">
                   <AccordionItemTitle>Young Cities</AccordionItemTitle>
+                  <AccordionItemBody>
+
+                  </AccordionItemBody>
+                </AccordionItem>
+                <AccordionItem className="music-section me-llamo-rosa">
+                  <AccordionItemTitle>Me Llamo Rosa</AccordionItemTitle>
+                  <AccordionItemBody>
+
+                  </AccordionItemBody>
                 </AccordionItem>
               </Accordion>
             </div>
