@@ -68,9 +68,9 @@ class Music extends Component {
                 <AccordionItem className="music-section pxlman">
                   <AccordionItemTitle>PXLMAN</AccordionItemTitle>
                   <AccordionItemBody>
-
-                    I spent a year or so as the live drummer for PXLMAN, the brainchild of my good friend Randy Washington.  Featuring a sound somewhere between electro-soul and electronic funk, and an incredible live show featuring lights, costumes, and improvisational elements.
+                    I spent a year or so as the live drummer for PXLMAN, the brainchild of my good friend Randy Washington.  Featuring a sound somewhere between electro-soul and funky French house, and an incredible live show featuring lights, costumes, and improvisational elements.
                     A rotating cast of musicians included a DJ, several percussionists, horns, guitar and bass ensured each live performance was truly unique.
+                    <iframe width="100%" height="250" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/183824447&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
                   </AccordionItemBody>
                 </AccordionItem>
                 <AccordionItem className="music-section young-cities">
