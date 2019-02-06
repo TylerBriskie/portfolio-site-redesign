@@ -69,7 +69,7 @@ class Music extends Component {
                   <AccordionItemTitle>Pxlman</AccordionItemTitle>
                 </AccordionItem>
                 <AccordionItem className="music-section young-cities">
-                  <h3>Young Cities</h3>
+                  <AccordionItemTitle>Young Cities</AccordionItemTitle>
                 </AccordionItem>
               </Accordion>
             </div>
