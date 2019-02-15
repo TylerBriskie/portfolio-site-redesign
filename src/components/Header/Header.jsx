@@ -21,7 +21,7 @@ class Header extends Component {
         return (
             <header className={`site-header nav-${currentPage}`}>
                 <div className="nav-button-container">
-                    <Link className={`nav-button${currentPage === 'projects' ? ' active' : ''}`} to="/projects/" onClick={() => this.handleClick('projects')}>Web Design</Link>
+                    <Link className={`nav-button${currentPage === 'projects' ? ' active' : ''}`} to="/projects/" onClick={() => this.handleClick('projects')}>Projects</Link>
                     <Link className={`nav-button${currentPage === 'music' ? ' active' : ''}`} to="/music/" onClick={() => this.handleClick('music')}>Music</Link>
                     <Link className={`nav-button${currentPage === 'resume' ? ' active' : ''}`} to="/resume/" onClick={() => this.handleClick('resume')}>Resume</Link>
                     <Link className={`nav-button${currentPage === 'arcade' ? ' active' : ''}`} to="/arcade/" onClick={() => this.handleClick('arcade')}>Arcade</Link>

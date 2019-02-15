@@ -4,21 +4,27 @@
   background-repeat: no-repeat;
   position: fixed;
   top: 0;
-  height: 15vh;
+  z-index: 10000;
+  height: 150px;
   width: 100vw;
   color: aqua;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
   transition: background-image .8s;
   .nav-button-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: absolute;
-    right: 0;
-    top: 5%;
+    position: fixed;
+    top: 55px;
+    right: 5%;
     width: 40%;
+    @media only screen and (max-width: 1268px){
+      top: 10px;
+    }
+    @media only screen and (max-width: 1156px){
+      top: 150px;
+      right: 10%;
+      width: 80%;
+    }
     a.nav-button {
       display: flex;
       width: 10vw;
@@ -31,6 +37,7 @@
       align-items: center;
       justify-content: center;
       font-family: 'Stalinist One', sans-serif;
+      font-size: .75em;
       border: solid 3px #777;
       padding: 1em;
       border-radius: 20px;
@@ -57,9 +64,6 @@
     }
   }
 
-  #header-image-logo{
-    height: 234px;
-  }
 }
 
 .nav-projects {
