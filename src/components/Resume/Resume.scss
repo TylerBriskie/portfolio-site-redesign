@@ -14,6 +14,12 @@
     width: 65%;
     .experience {
       header {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 150px;
+        @media only screen and (max-width: 1156px){
+          top: 215px;
+        }
         padding: 0 5%;
         display: flex;
         flex-direction: column;
