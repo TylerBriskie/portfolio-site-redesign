@@ -3,12 +3,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 5% 175px 10% 0;
+  margin: 150px 7vw 0 5vw;
   @media only screen and (max-width: 1156px){
     margin-top: 215px;
-  }
-  img {
-    height: 40%;
   }
 }
 
