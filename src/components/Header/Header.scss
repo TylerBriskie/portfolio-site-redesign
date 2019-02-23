@@ -22,8 +22,10 @@
     }
     @media only screen and (max-width: 1156px){
       top: 150px;
-      right: 10%;
-      width: 80%;
+      padding: 10px 0;
+      background-color: black;
+      width: 100vw;
+      right: 0;
     }
     a.nav-button {
       display: flex;
