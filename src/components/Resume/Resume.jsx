@@ -6,7 +6,6 @@ class Resume extends Component {
     render(){
         return (
             <div className="resume-page-container">
-                <aside className="download-resume">Download Resume</aside>
                 <div className="resume-page-columns">
                     <article id="resume-work-experience">
                     <section className="experience">
@@ -62,29 +61,32 @@ class Resume extends Component {
                         <header>
                             <h1>Skills and Proficiencies</h1>
 
-                        <div id="skill-table">
-                            <div className="skill-single">
-                                <h3>Javascript</h3>
-                                <SkillMeter color="blue" percent={80}></SkillMeter>
+                            <div id="skill-table">
+                                <div className="skill-single">
+                                    <h3>Javascript</h3>
+                                    <SkillMeter color="blue" percent={80}></SkillMeter>
+                                </div>
+                                <div className="skill-single">
+                                    <h3>React</h3>
+                                    <SkillMeter color="blue" percent={80}></SkillMeter>
+                                </div>
+                                <div className="skill-single">
+                                    <h3>Angular</h3>
+                                    <SkillMeter color="blue" percent={80}></SkillMeter>
+                                </div>
+                                <div className="skill-single">
+                                    <h3>Java</h3>
+                                    <SkillMeter color="blue" percent={80}></SkillMeter>
+                                </div>
+                                <div className="skill-single">
+                                    <h3>Spring MVC</h3>
+                                    <SkillMeter color="blue" percent={80}></SkillMeter>
+                                </div>
                             </div>
-                            <div className="skill-single">
-                                <h3>React</h3>
-                                <SkillMeter color="blue" percent={80}></SkillMeter>
-                            </div>
-                            <div className="skill-single">
-                                <h3>Angular</h3>
-                                <SkillMeter color="blue" percent={80}></SkillMeter>
-                            </div>
-                            <div className="skill-single">
-                                <h3>Java</h3>
-                                <SkillMeter color="blue" percent={80}></SkillMeter>
-                            </div>
-                            <div className="skill-single">
-                                <h3>Spring MVC</h3>
-                                <SkillMeter color="blue" percent={80}></SkillMeter>
-                            </div>
-                        </div>
+
                         </header>
+                        <aside className="download-resume">Download Resume (.pdf)</aside>
+
                     </aside>
                 </div>
             </div>
